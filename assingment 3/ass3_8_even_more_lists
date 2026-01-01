@@ -1,0 +1,33 @@
+# List of places in Cameroon (not in alphabetical order)
+places = ["Douala", "Bamenda", "Yaoundé", "Kribi", "Limbe"]
+
+# 1. Print the original list
+print("Original list:", places)
+
+# 2. Print the list in alphabetical order using sorted() (does not change original)
+print("Alphabetical (sorted):", sorted(places))
+
+# 3. Show original list is unchanged
+print("Original list still:", places)
+
+# 4. Print the list in reverse alphabetical order using sorted()
+print("Reverse alphabetical (sorted):", sorted(places, reverse=True))
+
+# 5. Show original list is still unchanged
+print("Original list still:", places)
+
+# 6. Reverse the order of the list using reverse()
+places.reverse()
+print("Reversed list:", places)
+
+# 7. Reverse again to restore original order
+places.reverse()
+print("Back to original order:", places)
+
+# 8. Sort the list alphabetically using sort()
+places.sort()
+print("Alphabetical order (sort):", places)
+
+# 9. Sort the list in reverse alphabetical order using sort()
+places.sort(reverse=True)
+print("Reverse alphabetical order (sort):", places)
